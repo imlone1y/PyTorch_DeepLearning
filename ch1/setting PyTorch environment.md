@@ -2,11 +2,11 @@
 
 ## 1. 下載 anaconda
 
-> [anaconda download](https://www.anaconda.com/download#windows)
+[anaconda download](https://www.anaconda.com/download#windows)
 
 下載完 anaconda 後，進入 Anaconda Prompt
 
-## 使用 Anaconda Prompt(anaconda3) 創建 python3.7 環境
+## 2. 使用 Anaconda Prompt(anaconda3) 創建 python3.7 環境
 
     conda create -n pytorch python=3.7
 
