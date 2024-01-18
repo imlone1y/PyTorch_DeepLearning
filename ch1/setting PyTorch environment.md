@@ -29,9 +29,9 @@
 安裝完後驗證
 
     conda activate pytorch
-    
+
     python
-    
+
     import torch
 
 未顯示錯誤訊息即為安裝成功
