@@ -24,3 +24,12 @@
 
 ![image](https://github.com/imlone1y/PyTorch_DeepLearning/assets/136362929/56cf5b25-19ae-4bb5-b9e2-ea51c2296fa7)
 
+    pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118
+
+安裝完後驗證
+
+    conda activate pytorch
+    python
+    import torch
+
+未顯示錯誤訊息即為安裝成功
