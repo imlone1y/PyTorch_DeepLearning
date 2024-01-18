@@ -19,4 +19,5 @@
 ## 3.安裝 PyTorch
 
 進入 Pytorch 官網查詢自己電腦型號的 PyTorch 下載碼
+
 [這裡查詢](https://pytorch.org/get-started/locally/)
