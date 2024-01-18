@@ -1,2 +1,2 @@
-# PyTorch_DeapLearning
+# PyTorch_DeepLearning
 self-learning PyTorch project
