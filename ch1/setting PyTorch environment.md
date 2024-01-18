@@ -84,4 +84,4 @@ CUDA 裝置名稱
 
 special thanks :
 
-all the imformation comes from https://hackmd.io/@NTUTVOTT/BJqZphBn_
+all the imformation comes from [here](https://hackmd.io/@NTUTVOTT/BJqZphBn_)
