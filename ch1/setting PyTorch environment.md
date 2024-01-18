@@ -21,3 +21,6 @@
 進入 Pytorch 官網查詢自己電腦型號的 PyTorch 下載碼
 
 > [Start Locally | PyTorch](https://pytorch.org/get-started/locally/)
+
+![image](https://github.com/imlone1y/PyTorch_DeepLearning/assets/136362929/56cf5b25-19ae-4bb5-b9e2-ea51c2296fa7)
+
