@@ -1,7 +1,6 @@
 # 1.anaconda PyTorch 環境架設(ubuntu 20.04)
 
-> anaconda downlaod :
-> https://www.anaconda.com/download#windows
+> anaconda download : https://www.anaconda.com/download#windows
 
 下載完 anaconda 後，進入 Anaconda Prompt
 
