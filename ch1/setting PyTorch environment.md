@@ -53,14 +53,17 @@
 > 應顯示顯卡名稱
 
     torch.cuda.device_count()
-
+    
 > 1
+
 CUDA ID
 
     torch.cuda.current_device()
+
+> 0
 
 CUDA 裝置名稱
 
     torch.cuda.get_device_name(0)
 
-
+> 應顯示顯卡名稱
