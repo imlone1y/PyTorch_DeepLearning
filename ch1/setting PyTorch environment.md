@@ -67,3 +67,17 @@ CUDA 裝置名稱
     torch.cuda.get_device_name(0)
 
 > 應顯示顯卡名稱
+
+## 4. 安裝其他 conda 相關套件
+
+    pip install jupyterlab
+    
+    conda install -c conda-forge matplotlib -n pytorch
+    
+    pip install torchsummary
+    
+    pip install torch
+    
+    pip install opencv-python
+    
+    pip install opencv-contrib-python
