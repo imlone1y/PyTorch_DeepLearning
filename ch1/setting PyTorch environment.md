@@ -29,9 +29,38 @@
 安裝完後驗證
 
     conda activate pytorch
-
+    
     python
-
+    
     import torch
-
+    
 未顯示錯誤訊息即為安裝成功
+
+    import torchvision
+    
+    torchvision.__version__
+
+> 應顯示版本名稱
+
+驗證 CUDA 是否可用
+
+    torch.cuda.is_available()
+
+> True
+
+    torch.cuda.get_device_name()
+
+> 應顯示顯卡名稱
+
+    torch.cuda.device_count()
+
+> 1
+CUDA ID
+
+    torch.cuda.current_device()
+
+CUDA 裝置名稱
+
+    torch.cuda.get_device_name(0)
+
+
