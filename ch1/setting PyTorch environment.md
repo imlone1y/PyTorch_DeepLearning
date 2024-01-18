@@ -81,3 +81,7 @@ CUDA 裝置名稱
     pip install opencv-python
     
     pip install opencv-contrib-python
+
+special thanks :
+
+all the imformation comes from https://hackmd.io/@NTUTVOTT/BJqZphBn_
