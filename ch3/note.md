@@ -15,6 +15,8 @@ output:
 ## `grad_fn=\<AddmmBackward0\>`
 `grad_fn=<AddmmBackward0>`表示這個張量是由一個矩陣-矩陣乘法操作（add matrix multiplication backward）生成的，這是 PyTorch 中用於計算梯度的一部分。
 
+***
+
 ```python
 class MyFirstNetwork(nn.Module):
     def __init__(self,input_size,hidden_size,output_size):
