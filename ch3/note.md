@@ -3,5 +3,8 @@
   
     inp = Variable(torch.randn(1, 10))
 
-## grad_fn=\<AddmmBackward0\>
+## `grad_fn=\<AddmmBackward0\>`
 `grad_fn=<AddmmBackward0>`表示這個張量是由一個矩陣-矩陣乘法操作（add matrix multiplication backward）生成的，這是 PyTorch 中用於計算梯度的一部分。
+
+
+## super(MyFirstNetwork,self).__init__() 
