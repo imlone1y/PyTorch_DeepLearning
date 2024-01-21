@@ -1,3 +1,16 @@
+```python
+# Training Data
+def get_data():
+    train_X = np.asarray([3.3,4.4,5.5,6.71,6.93,4.168,9.779,6.182,7.59,2.167,
+                         7.042,10.791,5.313,7.997,5.654,9.27,3.1])
+    train_Y = np.asarray([1.7,2.76,2.09,3.19,1.694,1.573,3.366,2.596,2.53,1.221,
+                         2.827,3.465,1.65,2.904,2.42,2.94,1.3])
+    dtype = torch.FloatTensor
+    X = Variable(torch.from_numpy(train_X).type(dtype),requires_grad=False).view(17,1)
+    y = Variable(torch.from_numpy(train_Y).type(dtype),requires_grad=False)
+    return X,y
+```
+
 ## np.asarray
 `np.asarray` 是 NumPy 函式庫中的一個函數，用於將輸入轉換為陣列。 它的作用是將輸入物件（如列表、元組、其他陣列等）轉換為 NumPy 陣列。
 
