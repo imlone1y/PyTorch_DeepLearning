@@ -36,7 +36,7 @@ print(arr_asarray)
 ```
 在上面的例子中，`np.asarray` 分別將列表和現有的 NumPy 數組轉換為新的 NumPy 數組。請注意，即使對於已經是 NumPy 數組的情況，`np.asarray` 也不會進行複製，這有助於節省內存。
 
-## X = Variable(torch.from_numpy(train_X).type(dtype),requires_grad=False).view(17,1)
+## `X = Variable(torch.from_numpy(train_X).type(dtype),requires_grad=False).view(17,1)`
 * `torch.from_numpy(train_X)`: 這將 NumPy 數組 `train_X` 轉換為 PyTorch 張量。現在，`train_X` 的數據類型將與 dtype 變數指定的浮點數類型相匹配。
 * `.type(dtype)`: 這一步確保張量的數據類型與 dtype 變數指定的類型相匹配。這是為了確保 PyTorch 張量的數據類型是 FloatTensor。
 * `.view(17, 1)`: 這將張量重新形狀為一個 17x1 的張量。這是為了確保 `train_X` 中的數據按照一列（column）的形式進行處理。
