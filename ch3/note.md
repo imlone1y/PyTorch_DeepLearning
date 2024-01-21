@@ -37,3 +37,22 @@ class MyFirstNetwork(nn.Module):
 `super()` 返回一個臨時對象，該對象用於調用父類別的方法。在這個情況下，它確保 `MyFirstNetwork` 的父類別 `nn.Module` 的初始化方法被正確地呼叫。
 
 簡單來說，這一行程式碼確保您的自定義神經網路在初始化時會執行父類別 `nn.Module` 的初始化方法。
+
+***
+
+```python
+loss = nn.MSELoss() # 創建一個均方誤差的損失函數，並將其存儲在 loss 變數中。
+input = Variable(torch.randn(3, 5), requires_grad=True)
+target = Variable(torch.randn(3, 5))
+output = loss(input, target) # 計算模型輸出 (input) 與目標值 (target) 之間的均方誤差損失。
+output.backward() # 執行反向傳播，計算損失對於輸入變數 input 的梯度。這將使得 input 中的 requires_grad 為 True 的元素具有相對於損失的梯度值。
+```
+## `input = Variable(torch.randn(3, 5), requires_grad=True)`
+這一行程式碼創建了一個大小為 (3, 5) 的張量（tensor），其中的數據是從標準正態分佈中抽樣而得。這個張量被包裝成一個 `Variable`，而 `requires_grad=True` 表示你希望計算這個變數的梯度。
+
+## `target = Variable(torch.randn(3, 5))`
+這一行程式碼創建了另一個大小相同的張量，作為目標值（ground truth）。同樣，這個張量也被包裝成一個 `Variable`，但由於沒有指定 `requires_grad`，預設是 `False`，因此不需要計算它的梯度。
+
+
+
+
